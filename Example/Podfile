@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AZLDraw_Example' do
+  pod 'AZLDraw', :path => '../'
+
+  target 'AZLDraw_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
