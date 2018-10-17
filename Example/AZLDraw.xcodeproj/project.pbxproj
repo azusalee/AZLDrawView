@@ -14,7 +14,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* AZLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AZLAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* AZLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* AZLViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +21,10 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		8C5D76D62176E55E00E63155 /* AZLDrawDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5D76D22176E55E00E63155 /* AZLDrawDemoViewController.m */; };
+		8C5D76D72176E55E00E63155 /* AZLDrawDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C5D76D32176E55E00E63155 /* AZLDrawDemoViewController.xib */; };
+		8C5D76D82176E55E00E63155 /* color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C5D76D52176E55E00E63155 /* color.jpg */; };
+		8C5D76DC2177184000E63155 /* UIImage+AZLProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5D76DA2177184000E63155 /* UIImage+AZLProcess.m */; };
 		E9FBFA771BFAB2FDBA6E697E /* Pods_AZLDraw_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A769CA276F92E0600F92586A /* Pods_AZLDraw_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,8 +52,6 @@
 		6003F59B195388D20070C39A /* AZLDraw-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZLDraw-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* AZLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZLAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* AZLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZLAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* AZLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZLViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* AZLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZLViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* AZLDraw_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZLDraw_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,13 +59,18 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		63620DAAD85DB8CC3AD7C3E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		63620DAAD85DB8CC3AD7C3E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F4C314815B08F04B652E179 /* Pods_AZLDraw_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZLDraw_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C5D76D12176E55E00E63155 /* AZLDrawDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZLDrawDemoViewController.h; sourceTree = "<group>"; };
+		8C5D76D22176E55E00E63155 /* AZLDrawDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZLDrawDemoViewController.m; sourceTree = "<group>"; };
+		8C5D76D32176E55E00E63155 /* AZLDrawDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AZLDrawDemoViewController.xib; sourceTree = "<group>"; };
+		8C5D76D52176E55E00E63155 /* color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = color.jpg; sourceTree = "<group>"; };
+		8C5D76DA2177184000E63155 /* UIImage+AZLProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AZLProcess.m"; sourceTree = "<group>"; };
+		8C5D76DB2177184000E63155 /* UIImage+AZLProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AZLProcess.h"; sourceTree = "<group>"; };
 		A769CA276F92E0600F92586A /* Pods_AZLDraw_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZLDraw_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF612659A90608183EC42CA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		ED23C89BE62810685A4D100C /* AZLDraw.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AZLDraw.podspec; path = ../AZLDraw.podspec; sourceTree = "<group>"; };
+		BF612659A90608183EC42CA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED23C89BE62810685A4D100C /* AZLDraw.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AZLDraw.podspec; path = ../AZLDraw.podspec; sourceTree = "<group>"; };
 		EFB688E0D6F5713CBA0A4B3F /* Pods-AZLDraw_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZLDraw_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AZLDraw_Example/Pods-AZLDraw_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,11 +137,10 @@
 		6003F593195388D20070C39A /* Example for AZLDraw */ = {
 			isa = PBXGroup;
 			children = (
+				8C5D76D92176E57400E63155 /* Extend */,
+				8C5D76D02176E55E00E63155 /* Demo */,
 				6003F59C195388D20070C39A /* AZLAppDelegate.h */,
 				6003F59D195388D20070C39A /* AZLAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* AZLViewController.h */,
-				6003F5A6195388D20070C39A /* AZLViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +198,34 @@
 				579BFB4A0B619DD8D2653914 /* Pods-AZLDraw_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C5D76D02176E55E00E63155 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8C5D76D12176E55E00E63155 /* AZLDrawDemoViewController.h */,
+				8C5D76D22176E55E00E63155 /* AZLDrawDemoViewController.m */,
+				8C5D76D32176E55E00E63155 /* AZLDrawDemoViewController.xib */,
+				8C5D76D42176E55E00E63155 /* photo */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		8C5D76D42176E55E00E63155 /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				8C5D76D52176E55E00E63155 /* color.jpg */,
+			);
+			path = photo;
+			sourceTree = "<group>";
+		};
+		8C5D76D92176E57400E63155 /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				8C5D76DB2177184000E63155 /* UIImage+AZLProcess.h */,
+				8C5D76DA2177184000E63155 /* UIImage+AZLProcess.m */,
+			);
+			path = Extend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,8 +308,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				8C5D76D72176E55E00E63155 /* AZLDrawDemoViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				8C5D76D82176E55E00E63155 /* color.jpg in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -356,8 +389,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* AZLAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* AZLViewController.m in Sources */,
+				8C5D76DC2177184000E63155 /* UIImage+AZLProcess.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				8C5D76D62176E55E00E63155 /* AZLDrawDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

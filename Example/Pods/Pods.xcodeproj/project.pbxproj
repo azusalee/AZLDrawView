@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1C89C45CB4A4297FC5D8C2453F6D24 /* Pods-AZLDraw_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEF3AACE726B59009A54BD5D1DFBF71 /* Pods-AZLDraw_Example-dummy.m */; };
+		32156E9389D676C2BEDD1931A33756DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3945D57FA8D807DB10617B527611248E /* AZLPointHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3BE875A7F3D2464228D8BC2163C107 /* AZLPointHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41E663C7C1639F1FC8F36034CA327E22 /* AZLPenPathProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 8264E163057D01201851C16F1C03B0FF /* AZLPenPathProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50D4C2CD870CA97C3BD5D656FD92F33D /* AZLDraw-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F33D141E324D6EF7F64B41CE3FA96C /* AZLDraw-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AF153BCEBE046826F9791549C8B89B3 /* UIBezierPath+AZLSignaturePath.m in Sources */ = {isa = PBXBuildFile; fileRef = C2626D5D9CFF8297C78458163DCF7FA1 /* UIBezierPath+AZLSignaturePath.m */; };
+		6B8B66E55039D573055550BD96AA3E90 /* AZLWeightPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 01371C1F3600411A89158925818007E5 /* AZLWeightPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72202303B93495CCEF063EB998052879 /* AZLDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = 753E4F52FFB2E56F96DD65D2BEE710EB /* AZLDrawView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7744E7F4A84CC2572118A41B6B9B15CD /* AZLPenPathProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2991207967771AD696C04A9246164849 /* AZLPenPathProvider.m */; };
+		8015311C24D4BFFFF2379C7DED29A2DD /* Pods-AZLDraw_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84756A6E3E0E21CA639C8E91735FE1D5 /* Pods-AZLDraw_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A5F22593832107E96A8E1F5BC1FB4B8 /* AZLWeightPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 391E8C3E534494EB6F80026BBC823FA7 /* AZLWeightPoint.m */; };
+		9F55C46A83C8169E2745F49394DE705B /* AZLBasePathProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C57F39C1A2286B5466BFD6CF2C9955 /* AZLBasePathProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6EE3D58DC0D9C602C07389D0EDBA308 /* AZLDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57858157B36E869F61BC190EC4E925EF /* AZLDrawView.m */; };
+		BA69D6A7C47E527CEAE3CD3A4D551C09 /* AZLBasePathProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E6887A1A2941E23E3246A6E8180C4F /* AZLBasePathProvider.m */; };
+		CA5DBA41B3B075AFFD2C80F588B582B0 /* UIBezierPath+AZLSignaturePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 521BA26B5287AB6AEA4C7A6046731AA8 /* UIBezierPath+AZLSignaturePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CADD7F552A760AF87AA8F48EE4EE13EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D36AD27E03089D0169F5786B617CD227 /* Pods-AZLDraw_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 328FE74A85C30BACEAE4BC9DE1CCEC2B /* Pods-AZLDraw_Tests-dummy.m */; };
+		F58C1F9097B91AFC54CD6431568001B6 /* AZLDraw-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2783753CFEB7748F997DE3728A704707 /* AZLDraw-dummy.m */; };
+		F614C9E49CEEE5FF6E91C89E119ADE91 /* Pods-AZLDraw_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F3D77810C476CB45F93F1B8974A581 /* Pods-AZLDraw_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDF6FA1AED047C318E0D1C7D084052FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		913B0C5565B7CAD4BA47EB5E6D534C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8E826C7693966A6CFC8B301CEFD7619;
+			remoteInfo = AZLDraw;
+		};
+		A101F2E99993C8765E2D8B9E120404C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FF64D062E6F9744C7B4CF23C6EE6E2;
+			remoteInfo = "Pods-AZLDraw_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01371C1F3600411A89158925818007E5 /* AZLWeightPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AZLWeightPoint.h; sourceTree = "<group>"; };
+		07C03010037D5C8340FE8638031877A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		10C57F39C1A2286B5466BFD6CF2C9955 /* AZLBasePathProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AZLBasePathProvider.h; sourceTree = "<group>"; };
+		10FFDDEEA4AC1365AF74B548884A81B3 /* Pods-AZLDraw_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZLDraw_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2007CF109A6BCACA451848B1E25BB9FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		246DE1A4837DED3C2207B347CCC817AC /* Pods-AZLDraw_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AZLDraw_Tests.modulemap"; sourceTree = "<group>"; };
+		2783753CFEB7748F997DE3728A704707 /* AZLDraw-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZLDraw-dummy.m"; sourceTree = "<group>"; };
+		2991207967771AD696C04A9246164849 /* AZLPenPathProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AZLPenPathProvider.m; sourceTree = "<group>"; };
+		2BD355C574F9575004E548602B9412E5 /* Pods-AZLDraw_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLDraw_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C8563BDE9A1ADA36E3F511FCD8A2329 /* Pods-AZLDraw_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AZLDraw_Example.modulemap"; sourceTree = "<group>"; };
+		328FE74A85C30BACEAE4BC9DE1CCEC2B /* Pods-AZLDraw_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZLDraw_Tests-dummy.m"; sourceTree = "<group>"; };
+		391E8C3E534494EB6F80026BBC823FA7 /* AZLWeightPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AZLWeightPoint.m; sourceTree = "<group>"; };
+		3D05C0C0139D7362F2ED1645C8044066 /* Pods-AZLDraw_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLDraw_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4FFC50481763EC69E0378B92F1D9DBC6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521BA26B5287AB6AEA4C7A6046731AA8 /* UIBezierPath+AZLSignaturePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+AZLSignaturePath.h"; sourceTree = "<group>"; };
+		56E6887A1A2941E23E3246A6E8180C4F /* AZLBasePathProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AZLBasePathProvider.m; sourceTree = "<group>"; };
+		57858157B36E869F61BC190EC4E925EF /* AZLDrawView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AZLDrawView.m; path = AZLDraw/Classes/Sources/AZLDrawView.m; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63A107F37BDCCAFA6AB6B208D284664B /* Pods-AZLDraw_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLDraw_Example-resources.sh"; sourceTree = "<group>"; };
+		66334B377E396EDF3802D4A917DDE610 /* AZLDraw.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AZLDraw.podspec; sourceTree = "<group>"; };
+		69F33D141E324D6EF7F64B41CE3FA96C /* AZLDraw-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZLDraw-umbrella.h"; sourceTree = "<group>"; };
+		753E4F52FFB2E56F96DD65D2BEE710EB /* AZLDrawView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AZLDrawView.h; path = AZLDraw/Classes/Sources/AZLDrawView.h; sourceTree = "<group>"; };
+		79734AE00BD151F94111DCCF8A353C6F /* Pods-AZLDraw_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLDraw_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7A3BE875A7F3D2464228D8BC2163C107 /* AZLPointHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AZLPointHelper.h; sourceTree = "<group>"; };
+		8264E163057D01201851C16F1C03B0FF /* AZLPenPathProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AZLPenPathProvider.h; sourceTree = "<group>"; };
+		84756A6E3E0E21CA639C8E91735FE1D5 /* Pods-AZLDraw_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZLDraw_Tests-umbrella.h"; sourceTree = "<group>"; };
+		884FFA6A3BB647AA3F16E4C81DD3EB82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AEF3AACE726B59009A54BD5D1DFBF71 /* Pods-AZLDraw_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZLDraw_Example-dummy.m"; sourceTree = "<group>"; };
+		8F544A5E0889FC04253704EE2447E18A /* Pods-AZLDraw_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLDraw_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		90FB4F1A318D28FE60F74947B0315688 /* AZLDraw.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AZLDraw.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B28A174997BBDCEEC0EECB7C0106A57A /* AZLDraw.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZLDraw.xcconfig; sourceTree = "<group>"; };
+		BBCDC0EE0FFD957698C74C183A5BAD91 /* Pods-AZLDraw_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLDraw_Tests-resources.sh"; sourceTree = "<group>"; };
+		BF4E717F6FAF6527A0EF9B0E4725E0FC /* Pods-AZLDraw_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLDraw_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C2626D5D9CFF8297C78458163DCF7FA1 /* UIBezierPath+AZLSignaturePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+AZLSignaturePath.m"; sourceTree = "<group>"; };
+		C7EB27DA663FDEF848253FC35AC2D38E /* Pods_AZLDraw_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZLDraw_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C921D35A253403A01CED7AA4B086E29F /* AZLDraw-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZLDraw-prefix.pch"; sourceTree = "<group>"; };
+		CCCE37435D359B7948D051C19AE8B882 /* Pods-AZLDraw_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZLDraw_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDFADD57594974EAD77BEBA38743C2BA /* Pods-AZLDraw_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZLDraw_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D682D6D6C2D9A2CA9B2D06FCC5958BFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE8B91D651EDAE39756238D64AE09F94 /* AZLDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZLDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F3D77810C476CB45F93F1B8974A581 /* Pods-AZLDraw_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZLDraw_Example-umbrella.h"; sourceTree = "<group>"; };
+		F02548098EA1CD11D2472D0A35F6F78B /* Pods-AZLDraw_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLDraw_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F483BDCDC54D1B752DD45841C6D3476A /* Pods_AZLDraw_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZLDraw_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEAB6C24014F69860187685FD113A3C8 /* Pods-AZLDraw_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZLDraw_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B799CA3820ACEEB901EEF0E6F11AC1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADD7F552A760AF87AA8F48EE4EE13EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C813EFB597968F7B0E6F04D823EDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32156E9389D676C2BEDD1931A33756DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F72801753BC32D879EEBDD07A22CFA02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF6FA1AED047C318E0D1C7D084052FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AD2C48E47D1E8E311606EF2EB08DEC1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B58B8F7F868D9D72E1F0AE9CB85EFC5B /* Pods-AZLDraw_Example */,
+				F6E5E33D1593327237086F4C64DCA8A9 /* Pods-AZLDraw_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33AC88778560EBAB6658579C07B6E714 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDCE66DF7799C0131D7090DBAC9C9978 /* AZLDraw */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4210722CEB72580E1C93153FCBE10258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8B91D651EDAE39756238D64AE09F94 /* AZLDraw.framework */,
+				F483BDCDC54D1B752DD45841C6D3476A /* Pods_AZLDraw_Example.framework */,
+				C7EB27DA663FDEF848253FC35AC2D38E /* Pods_AZLDraw_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62EE1970A94D4AE3A5747001E96CF751 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				521BA26B5287AB6AEA4C7A6046731AA8 /* UIBezierPath+AZLSignaturePath.h */,
+				C2626D5D9CFF8297C78458163DCF7FA1 /* UIBezierPath+AZLSignaturePath.m */,
+			);
+			name = Category;
+			path = AZLDraw/Classes/Sources/Category;
+			sourceTree = "<group>";
+		};
+		7534907F26575C47AD58A0A1B31ADCE0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7A3BE875A7F3D2464228D8BC2163C107 /* AZLPointHelper.h */,
+			);
+			name = Helper;
+			path = AZLDraw/Classes/Sources/Helper;
+			sourceTree = "<group>";
+		};
+		7794A600262301244D65751054970DC7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90FB4F1A318D28FE60F74947B0315688 /* AZLDraw.modulemap */,
+				B28A174997BBDCEEC0EECB7C0106A57A /* AZLDraw.xcconfig */,
+				2783753CFEB7748F997DE3728A704707 /* AZLDraw-dummy.m */,
+				C921D35A253403A01CED7AA4B086E29F /* AZLDraw-prefix.pch */,
+				69F33D141E324D6EF7F64B41CE3FA96C /* AZLDraw-umbrella.h */,
+				884FFA6A3BB647AA3F16E4C81DD3EB82 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AZLDraw";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				33AC88778560EBAB6658579C07B6E714 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4210722CEB72580E1C93153FCBE10258 /* Products */,
+				0AD2C48E47D1E8E311606EF2EB08DEC1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83B185FAD2C475F9B1286D4410DFFD43 /* PathProvider */ = {
+			isa = PBXGroup;
+			children = (
+				10C57F39C1A2286B5466BFD6CF2C9955 /* AZLBasePathProvider.h */,
+				56E6887A1A2941E23E3246A6E8180C4F /* AZLBasePathProvider.m */,
+				8264E163057D01201851C16F1C03B0FF /* AZLPenPathProvider.h */,
+				2991207967771AD696C04A9246164849 /* AZLPenPathProvider.m */,
+			);
+			name = PathProvider;
+			path = AZLDraw/Classes/Sources/PathProvider;
+			sourceTree = "<group>";
+		};
+		A9A9E2ECF2ED2564F44997A0FA41AD2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01371C1F3600411A89158925818007E5 /* AZLWeightPoint.h */,
+				391E8C3E534494EB6F80026BBC823FA7 /* AZLWeightPoint.m */,
+			);
+			name = Model;
+			path = AZLDraw/Classes/Sources/Model;
+			sourceTree = "<group>";
+		};
+		B58B8F7F868D9D72E1F0AE9CB85EFC5B /* Pods-AZLDraw_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2007CF109A6BCACA451848B1E25BB9FC /* Info.plist */,
+				2C8563BDE9A1ADA36E3F511FCD8A2329 /* Pods-AZLDraw_Example.modulemap */,
+				10FFDDEEA4AC1365AF74B548884A81B3 /* Pods-AZLDraw_Example-acknowledgements.markdown */,
+				CDFADD57594974EAD77BEBA38743C2BA /* Pods-AZLDraw_Example-acknowledgements.plist */,
+				8AEF3AACE726B59009A54BD5D1DFBF71 /* Pods-AZLDraw_Example-dummy.m */,
+				BF4E717F6FAF6527A0EF9B0E4725E0FC /* Pods-AZLDraw_Example-frameworks.sh */,
+				63A107F37BDCCAFA6AB6B208D284664B /* Pods-AZLDraw_Example-resources.sh */,
+				E8F3D77810C476CB45F93F1B8974A581 /* Pods-AZLDraw_Example-umbrella.h */,
+				3D05C0C0139D7362F2ED1645C8044066 /* Pods-AZLDraw_Example.debug.xcconfig */,
+				2BD355C574F9575004E548602B9412E5 /* Pods-AZLDraw_Example.release.xcconfig */,
+			);
+			name = "Pods-AZLDraw_Example";
+			path = "Target Support Files/Pods-AZLDraw_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C53E3529246F8846473A0780302CFE8F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				66334B377E396EDF3802D4A917DDE610 /* AZLDraw.podspec */,
+				D682D6D6C2D9A2CA9B2D06FCC5958BFE /* LICENSE */,
+				07C03010037D5C8340FE8638031877A8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DDCE66DF7799C0131D7090DBAC9C9978 /* AZLDraw */ = {
+			isa = PBXGroup;
+			children = (
+				753E4F52FFB2E56F96DD65D2BEE710EB /* AZLDrawView.h */,
+				57858157B36E869F61BC190EC4E925EF /* AZLDrawView.m */,
+				62EE1970A94D4AE3A5747001E96CF751 /* Category */,
+				7534907F26575C47AD58A0A1B31ADCE0 /* Helper */,
+				A9A9E2ECF2ED2564F44997A0FA41AD2F /* Model */,
+				83B185FAD2C475F9B1286D4410DFFD43 /* PathProvider */,
+				C53E3529246F8846473A0780302CFE8F /* Pod */,
+				7794A600262301244D65751054970DC7 /* Support Files */,
+			);
+			name = AZLDraw;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F6E5E33D1593327237086F4C64DCA8A9 /* Pods-AZLDraw_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC50481763EC69E0378B92F1D9DBC6 /* Info.plist */,
+				246DE1A4837DED3C2207B347CCC817AC /* Pods-AZLDraw_Tests.modulemap */,
+				FEAB6C24014F69860187685FD113A3C8 /* Pods-AZLDraw_Tests-acknowledgements.markdown */,
+				CCCE37435D359B7948D051C19AE8B882 /* Pods-AZLDraw_Tests-acknowledgements.plist */,
+				328FE74A85C30BACEAE4BC9DE1CCEC2B /* Pods-AZLDraw_Tests-dummy.m */,
+				F02548098EA1CD11D2472D0A35F6F78B /* Pods-AZLDraw_Tests-frameworks.sh */,
+				BBCDC0EE0FFD957698C74C183A5BAD91 /* Pods-AZLDraw_Tests-resources.sh */,
+				84756A6E3E0E21CA639C8E91735FE1D5 /* Pods-AZLDraw_Tests-umbrella.h */,
+				8F544A5E0889FC04253704EE2447E18A /* Pods-AZLDraw_Tests.debug.xcconfig */,
+				79734AE00BD151F94111DCCF8A353C6F /* Pods-AZLDraw_Tests.release.xcconfig */,
+			);
+			name = "Pods-AZLDraw_Tests";
+			path = "Target Support Files/Pods-AZLDraw_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1269B7419453875820E520BF28C47997 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F614C9E49CEEE5FF6E91C89E119ADE91 /* Pods-AZLDraw_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2059954A63079EC6A0C9D55F8194470B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8015311C24D4BFFFF2379C7DED29A2DD /* Pods-AZLDraw_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD984E7FE4412781F71C01BAA4872312 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F55C46A83C8169E2745F49394DE705B /* AZLBasePathProvider.h in Headers */,
+				50D4C2CD870CA97C3BD5D656FD92F33D /* AZLDraw-umbrella.h in Headers */,
+				72202303B93495CCEF063EB998052879 /* AZLDrawView.h in Headers */,
+				41E663C7C1639F1FC8F36034CA327E22 /* AZLPenPathProvider.h in Headers */,
+				3945D57FA8D807DB10617B527611248E /* AZLPointHelper.h in Headers */,
+				6B8B66E55039D573055550BD96AA3E90 /* AZLWeightPoint.h in Headers */,
+				CA5DBA41B3B075AFFD2C80F588B582B0 /* UIBezierPath+AZLSignaturePath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C3D0F20EC12CB6738C09D365155B7BF2 /* Pods-AZLDraw_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808E0E3F6D0993C07E75BCC236B66315 /* Build configuration list for PBXNativeTarget "Pods-AZLDraw_Tests" */;
+			buildPhases = (
+				89D99945BB1D50A6EFD4F849EB9670D8 /* Sources */,
+				F72801753BC32D879EEBDD07A22CFA02 /* Frameworks */,
+				2059954A63079EC6A0C9D55F8194470B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168A1F5536FEEAC67D94B6DBA68DC97A /* PBXTargetDependency */,
+			);
+			name = "Pods-AZLDraw_Tests";
+			productName = "Pods-AZLDraw_Tests";
+			productReference = C7EB27DA663FDEF848253FC35AC2D38E /* Pods_AZLDraw_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1FF64D062E6F9744C7B4CF23C6EE6E2 /* Pods-AZLDraw_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33476F6770A5AC91720CF23ED8EC81AD /* Build configuration list for PBXNativeTarget "Pods-AZLDraw_Example" */;
+			buildPhases = (
+				AEC02FD4B06F8B3A1286687BB8D53478 /* Sources */,
+				4B799CA3820ACEEB901EEF0E6F11AC1B /* Frameworks */,
+				1269B7419453875820E520BF28C47997 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B893DB5E2C4EBDB6B2E73B18FF991D02 /* PBXTargetDependency */,
+			);
+			name = "Pods-AZLDraw_Example";
+			productName = "Pods-AZLDraw_Example";
+			productReference = F483BDCDC54D1B752DD45841C6D3476A /* Pods_AZLDraw_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8E826C7693966A6CFC8B301CEFD7619 /* AZLDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC266DB5884CF769AFBB98BD5AAEEEF /* Build configuration list for PBXNativeTarget "AZLDraw" */;
+			buildPhases = (
+				4C5ACB284344F3F6D758571B94729D03 /* Sources */,
+				A9C813EFB597968F7B0E6F04D823EDB7 /* Frameworks */,
+				DD984E7FE4412781F71C01BAA4872312 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZLDraw;
+			productName = AZLDraw;
+			productReference = DE8B91D651EDAE39756238D64AE09F94 /* AZLDraw.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4210722CEB72580E1C93153FCBE10258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8E826C7693966A6CFC8B301CEFD7619 /* AZLDraw */,
+				D1FF64D062E6F9744C7B4CF23C6EE6E2 /* Pods-AZLDraw_Example */,
+				C3D0F20EC12CB6738C09D365155B7BF2 /* Pods-AZLDraw_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5ACB284344F3F6D758571B94729D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA69D6A7C47E527CEAE3CD3A4D551C09 /* AZLBasePathProvider.m in Sources */,
+				F58C1F9097B91AFC54CD6431568001B6 /* AZLDraw-dummy.m in Sources */,
+				B6EE3D58DC0D9C602C07389D0EDBA308 /* AZLDrawView.m in Sources */,
+				7744E7F4A84CC2572118A41B6B9B15CD /* AZLPenPathProvider.m in Sources */,
+				9A5F22593832107E96A8E1F5BC1FB4B8 /* AZLWeightPoint.m in Sources */,
+				5AF153BCEBE046826F9791549C8B89B3 /* UIBezierPath+AZLSignaturePath.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D99945BB1D50A6EFD4F849EB9670D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36AD27E03089D0169F5786B617CD227 /* Pods-AZLDraw_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC02FD4B06F8B3A1286687BB8D53478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1C89C45CB4A4297FC5D8C2453F6D24 /* Pods-AZLDraw_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168A1F5536FEEAC67D94B6DBA68DC97A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AZLDraw_Example";
+			target = D1FF64D062E6F9744C7B4CF23C6EE6E2 /* Pods-AZLDraw_Example */;
+			targetProxy = A101F2E99993C8765E2D8B9E120404C1 /* PBXContainerItemProxy */;
+		};
+		B893DB5E2C4EBDB6B2E73B18FF991D02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AZLDraw;
+			target = D8E826C7693966A6CFC8B301CEFD7619 /* AZLDraw */;
+			targetProxy = 913B0C5565B7CAD4BA47EB5E6D534C25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27AF5D3389F40E6CCA4C146DABA5D15A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28A174997BBDCEEC0EECB7C0106A57A /* AZLDraw.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZLDraw/AZLDraw-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZLDraw/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZLDraw/AZLDraw.modulemap";
+				PRODUCT_MODULE_NAME = AZLDraw;
+				PRODUCT_NAME = AZLDraw;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		448E5A7A4B196899E4808F1C6A84F0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F544A5E0889FC04253704EE2447E18A /* Pods-AZLDraw_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZLDraw_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZLDraw_Tests/Pods-AZLDraw_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4823DC86E45FF3CB0B0FDE9BA7B418EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D05C0C0139D7362F2ED1645C8044066 /* Pods-AZLDraw_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZLDraw_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZLDraw_Example/Pods-AZLDraw_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D78D4425CC18EDDC9DFB9CE3FD860FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28A174997BBDCEEC0EECB7C0106A57A /* AZLDraw.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZLDraw/AZLDraw-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZLDraw/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZLDraw/AZLDraw.modulemap";
+				PRODUCT_MODULE_NAME = AZLDraw;
+				PRODUCT_NAME = AZLDraw;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9A0BD0C3F4D6277A845BD0B13C1B310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD355C574F9575004E548602B9412E5 /* Pods-AZLDraw_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZLDraw_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZLDraw_Example/Pods-AZLDraw_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEEBE4704FE6BE6E4FA7E2B0009AA0B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79734AE00BD151F94111DCCF8A353C6F /* Pods-AZLDraw_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AZLDraw_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AZLDraw_Tests/Pods-AZLDraw_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33476F6770A5AC91720CF23ED8EC81AD /* Build configuration list for PBXNativeTarget "Pods-AZLDraw_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4823DC86E45FF3CB0B0FDE9BA7B418EA /* Debug */,
+				D9A0BD0C3F4D6277A845BD0B13C1B310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808E0E3F6D0993C07E75BCC236B66315 /* Build configuration list for PBXNativeTarget "Pods-AZLDraw_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448E5A7A4B196899E4808F1C6A84F0C2 /* Debug */,
+				FEEBE4704FE6BE6E4FA7E2B0009AA0B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC266DB5884CF769AFBB98BD5AAEEEF /* Build configuration list for PBXNativeTarget "AZLDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D78D4425CC18EDDC9DFB9CE3FD860FDB /* Debug */,
+				27AF5D3389F40E6CCA4C146DABA5D15A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

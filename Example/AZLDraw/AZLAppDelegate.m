@@ -7,12 +7,17 @@
 //
 
 #import "AZLAppDelegate.h"
+#import "AZLDrawDemoViewController.h"
 
 @implementation AZLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = [[AZLDrawDemoViewController alloc] init];
+    
     return YES;
 }
 

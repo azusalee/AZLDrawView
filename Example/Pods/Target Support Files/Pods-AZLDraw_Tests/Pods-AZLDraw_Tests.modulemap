@@ -1,0 +1,6 @@
+framework module Pods_AZLDraw_Tests {
+  umbrella header "Pods-AZLDraw_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AZLDraw {
+  umbrella header "AZLDraw-umbrella.h"
+
+  export *
+  module * { export * }
+}
