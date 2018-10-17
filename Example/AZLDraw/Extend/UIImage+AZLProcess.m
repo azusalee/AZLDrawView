@@ -468,40 +468,5 @@
 }
 
 
-+ (NSArray *)azl_getEffectArray{
-    NSArray* filters =  [CIFilter filterNamesInCategory:kCICategoryColorEffect];
-//    for (NSString* filterName in filters) {
-//        NSLog(@"filter name:%@",filterName);
-//        // 我们可以通过filterName创建对应的滤镜对象
-////        CIFilter* filter = [CIFilter filterWithName:filterName];
-////        NSDictionary* attributes = [filter attributes];
-////        // 获取属性键/值对（在这个字典中我们可以看到滤镜的属性以及对应的key）
-////        NSLog(@"filter attributes:%@",attributes);
-//    }
-    
-    return filters;
-}
-
-
-- (UIImage *)azl_imageFromFilterName:(NSString*)filterName{
-    // 创建输入CIImage对象
-    CIImage * inputImg = [CIImage imageWithCGImage:self.CGImage];
-    // 创建滤镜
-    CIFilter * filter = [CIFilter filterWithName:filterName];
-    // 设置滤镜属性值为默认值
-    [filter setDefaults];
-    // 设置输入图像
-    [filter setValue:inputImg forKey:kCIInputImageKey];
-    // 获取输出图像
-    CIImage * outputImg = filter.outputImage;
-    
-    // 创建CIContex上下文对象
-    CIContext * context = [CIContext contextWithOptions:nil];
-    CGImageRef cgImg = [context createCGImage:outputImg fromRect:outputImg.extent];
-    UIImage *resultImg = [UIImage imageWithCGImage:cgImg scale:self.scale orientation:self.imageOrientation];
-    CGImageRelease(cgImg);
-    
-    return resultImg;
-}
 
 @end

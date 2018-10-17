@@ -49,9 +49,6 @@
 - (double)azl_getNoAlphaPixelRate;
 
 
-+ (NSArray*)azl_getEffectArray;
-
-- (UIImage *)azl_imageFromFilterName:(NSString*)filterName;
 
 
 @end
