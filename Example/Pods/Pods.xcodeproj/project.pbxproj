@@ -48,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		01371C1F3600411A89158925818007E5 /* AZLWeightPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AZLWeightPoint.h; sourceTree = "<group>"; };
-		07C03010037D5C8340FE8638031877A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		07C03010037D5C8340FE8638031877A8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		10C57F39C1A2286B5466BFD6CF2C9955 /* AZLBasePathProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AZLBasePathProvider.h; sourceTree = "<group>"; };
 		10FFDDEEA4AC1365AF74B548884A81B3 /* Pods-AZLDraw_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZLDraw_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2007CF109A6BCACA451848B1E25BB9FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		57858157B36E869F61BC190EC4E925EF /* AZLDrawView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AZLDrawView.m; path = AZLDraw/Classes/Sources/AZLDrawView.m; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		63A107F37BDCCAFA6AB6B208D284664B /* Pods-AZLDraw_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLDraw_Example-resources.sh"; sourceTree = "<group>"; };
-		66334B377E396EDF3802D4A917DDE610 /* AZLDraw.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AZLDraw.podspec; sourceTree = "<group>"; };
+		66334B377E396EDF3802D4A917DDE610 /* AZLDraw.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AZLDraw.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		69F33D141E324D6EF7F64B41CE3FA96C /* AZLDraw-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZLDraw-umbrella.h"; sourceTree = "<group>"; };
 		753E4F52FFB2E56F96DD65D2BEE710EB /* AZLDrawView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AZLDrawView.h; path = AZLDraw/Classes/Sources/AZLDrawView.h; sourceTree = "<group>"; };
 		79734AE00BD151F94111DCCF8A353C6F /* Pods-AZLDraw_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLDraw_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,20 +77,20 @@
 		8AEF3AACE726B59009A54BD5D1DFBF71 /* Pods-AZLDraw_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AZLDraw_Example-dummy.m"; sourceTree = "<group>"; };
 		8F544A5E0889FC04253704EE2447E18A /* Pods-AZLDraw_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AZLDraw_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		90FB4F1A318D28FE60F74947B0315688 /* AZLDraw.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AZLDraw.modulemap; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B28A174997BBDCEEC0EECB7C0106A57A /* AZLDraw.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZLDraw.xcconfig; sourceTree = "<group>"; };
 		BBCDC0EE0FFD957698C74C183A5BAD91 /* Pods-AZLDraw_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLDraw_Tests-resources.sh"; sourceTree = "<group>"; };
 		BF4E717F6FAF6527A0EF9B0E4725E0FC /* Pods-AZLDraw_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLDraw_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C2626D5D9CFF8297C78458163DCF7FA1 /* UIBezierPath+AZLSignaturePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+AZLSignaturePath.m"; sourceTree = "<group>"; };
-		C7EB27DA663FDEF848253FC35AC2D38E /* Pods_AZLDraw_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZLDraw_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EB27DA663FDEF848253FC35AC2D38E /* Pods_AZLDraw_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZLDraw_Tests.framework; path = "Pods-AZLDraw_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C921D35A253403A01CED7AA4B086E29F /* AZLDraw-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZLDraw-prefix.pch"; sourceTree = "<group>"; };
 		CCCE37435D359B7948D051C19AE8B882 /* Pods-AZLDraw_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZLDraw_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CDFADD57594974EAD77BEBA38743C2BA /* Pods-AZLDraw_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AZLDraw_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D682D6D6C2D9A2CA9B2D06FCC5958BFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		DE8B91D651EDAE39756238D64AE09F94 /* AZLDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZLDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D682D6D6C2D9A2CA9B2D06FCC5958BFE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DE8B91D651EDAE39756238D64AE09F94 /* AZLDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AZLDraw.framework; path = AZLDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F3D77810C476CB45F93F1B8974A581 /* Pods-AZLDraw_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AZLDraw_Example-umbrella.h"; sourceTree = "<group>"; };
 		F02548098EA1CD11D2472D0A35F6F78B /* Pods-AZLDraw_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AZLDraw_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F483BDCDC54D1B752DD45841C6D3476A /* Pods_AZLDraw_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZLDraw_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F483BDCDC54D1B752DD45841C6D3476A /* Pods_AZLDraw_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AZLDraw_Example.framework; path = "Pods-AZLDraw_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEAB6C24014F69860187685FD113A3C8 /* Pods-AZLDraw_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AZLDraw_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
