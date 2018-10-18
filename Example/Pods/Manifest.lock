@@ -1,5 +1,5 @@
 PODS:
-  - AZLDraw (0.1.1)
+  - AZLDraw (0.1.2)
 
 DEPENDENCIES:
   - AZLDraw (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AZLDraw: a5dfdbbd5a1707e74154293b803e11997f3f4a17
+  AZLDraw: faa6b0e660a4202ab3ba290e20c42027b9e62f45
 
 PODFILE CHECKSUM: fb796a8b4d8aec89833d8719bcd725792fe9e387
 

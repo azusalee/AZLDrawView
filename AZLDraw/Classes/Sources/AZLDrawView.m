@@ -99,6 +99,10 @@
 - (void)pathProvider:(AZLBasePathProvider *)provider didChangePath:(UIBezierPath *)path{
     //更新UI
     ((CAShapeLayer *)self.layer).path = path.CGPath;
+    if (self.delegate) {
+        [self.delegate drawView:self contentDidChangeWithClear:path.isEmpty];
+    }
 }
+
 
 @end
