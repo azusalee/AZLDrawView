@@ -15,6 +15,7 @@
 #import "AZLPointHelper.h"
 #import "AZLWeightPoint.h"
 #import "AZLBasePathProvider.h"
+#import "AZLPencilPathProvider.h"
 #import "AZLPenPathProvider.h"
 
 FOUNDATION_EXPORT double AZLDrawVersionNumber;

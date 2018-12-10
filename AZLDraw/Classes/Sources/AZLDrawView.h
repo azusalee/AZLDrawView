@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AZLBasePathProvider.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -23,11 +24,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<AZLDrawViewDelegate> delegate;
 
+//設置路徑生成
+- (void)setPathProvider:(AZLBasePathProvider *)pathProvider;
+
 //清空view
 - (void)clear;
 
 //修改畫筆的顏色
 - (void)changeStrokeColor:(UIColor *)color;
+
+- (void)changeLineWidth:(CGFloat)lineWidth;
 
 @end
 

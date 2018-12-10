@@ -19,7 +19,7 @@
 }
 
 //一個生成path的類
-@property (nonatomic, strong) AZLPenPathProvider *pathProvider;
+@property (nonatomic, strong) AZLBasePathProvider *pathProvider;
 
 
 
@@ -48,6 +48,9 @@
 }
 
 - (void)setupView{
+    
+    self.multipleTouchEnabled = NO;
+    
     self.pathProvider = [[AZLPenPathProvider alloc] init];
     self.pathProvider.delegate = self;
     
@@ -55,6 +58,7 @@
     shapeLayer.strokeColor = [UIColor blackColor].CGColor;
     shapeLayer.fillColor = [UIColor blackColor].CGColor;
 
+    shapeLayer.lineCap = kCALineCapRound;
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -82,6 +86,11 @@
 }
 
 
+- (void)setPathProvider:(AZLBasePathProvider *)pathProvider{
+    _pathProvider = pathProvider;
+    pathProvider.delegate = self;
+}
+
 //清空view
 - (void)clear{
     [self.pathProvider clear];
@@ -92,6 +101,11 @@
     CAShapeLayer *shapeLayer = (CAShapeLayer *)self.layer;
     shapeLayer.strokeColor = color.CGColor;
     shapeLayer.fillColor = color.CGColor;
+}
+
+- (void)changeLineWidth:(CGFloat)lineWidth{
+    CAShapeLayer *shapeLayer = (CAShapeLayer *)self.layer;
+    shapeLayer.lineWidth = lineWidth;
 }
 
 

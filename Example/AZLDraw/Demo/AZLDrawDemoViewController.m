@@ -9,6 +9,8 @@
 #import "AZLDrawDemoViewController.h"
 #import "AZLDrawView.h"
 #import "UIImage+AZLProcess.h"
+#import "AZLPenPathProvider.h"
+#import "AZLPencilPathProvider.h"
 
 @interface AZLDrawDemoViewController ()
 @property (weak, nonatomic) IBOutlet AZLDrawView *drawView;
@@ -21,6 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self.drawView setPathProvider:[[AZLPenPathProvider alloc] init]];
 }
 
 - (IBAction)clearDidTap:(id)sender {
@@ -34,6 +37,9 @@
     
 }
 
+- (IBAction)changeLineWidth:(UISlider*)sender {
+    [self.drawView changeLineWidth:sender.value];
+}
 
 /*
 #pragma mark - Navigation
