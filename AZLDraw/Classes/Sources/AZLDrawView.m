@@ -58,7 +58,7 @@
     shapeLayer.strokeColor = [UIColor blackColor].CGColor;
     shapeLayer.fillColor = [UIColor blackColor].CGColor;
 
-    shapeLayer.lineCap = kCALineCapRound;
+    shapeLayer.lineCap = kCALineCapButt;
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -106,6 +106,11 @@
 - (void)changeLineWidth:(CGFloat)lineWidth{
     CAShapeLayer *shapeLayer = (CAShapeLayer *)self.layer;
     shapeLayer.lineWidth = lineWidth;
+}
+
+- (void)changeLineCap:(CAShapeLayerLineCap)lineCap{
+    CAShapeLayer *shapeLayer = (CAShapeLayer *)self.layer;
+    shapeLayer.lineCap = lineCap;
 }
 
 

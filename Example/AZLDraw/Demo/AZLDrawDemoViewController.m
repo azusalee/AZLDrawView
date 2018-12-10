@@ -40,6 +40,15 @@
 - (IBAction)changeLineWidth:(UISlider*)sender {
     [self.drawView changeLineWidth:sender.value];
 }
+- (IBAction)changeLineCap:(UISegmentedControl *)sender {
+    if (sender.selectedSegmentIndex == 0) {
+        [self.drawView changeLineCap:kCALineCapButt];
+    }else if (sender.selectedSegmentIndex == 1){
+        [self.drawView changeLineCap:kCALineCapRound];
+    }else{
+        [self.drawView changeLineCap:kCALineCapSquare];
+    }
+}
 
 /*
 #pragma mark - Navigation

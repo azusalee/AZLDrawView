@@ -35,6 +35,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)changeLineWidth:(CGFloat)lineWidth;
 
+- (void)changeLineCap:(CAShapeLayerLineCap)lineCap;
+
 @end
 
 NS_ASSUME_NONNULL_END
